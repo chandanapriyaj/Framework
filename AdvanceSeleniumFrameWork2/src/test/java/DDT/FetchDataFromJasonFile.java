@@ -13,7 +13,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class FetchDataFromJasonFile {
 
 	public static void main(String[] args) throws Throwable {
-		
+		//pull back
 		File file = new File("./src/test/resources/jason.jason.txt");
 		ObjectMapper jasonData = new ObjectMapper();
 		JsonNode data = jasonData.readTree(file);
